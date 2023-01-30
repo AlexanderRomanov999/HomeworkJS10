@@ -1,0 +1,52 @@
+const data = `[
+{
+    "id":"100",
+    "description":"Continue",
+    "url":"https://http.cat/100"
+},
+{
+    "id":"102",
+    "description":"Processing",
+    "url":"https://http.cat/102"
+},
+{
+    "id":"200",
+    "description":"OK",
+    "url":"https://http.cat/200"
+},
+{
+    "id":"204",
+    "description":"No_Content",
+    "url":"https://http.cat/204"
+},
+{
+    "id":"400",
+    "description":"Bad_Request",
+    "url":"https://http.cat/400"
+},
+{
+    "id":"404",
+    "description":"Not_Found",
+    "url":"https://http.cat/404"
+},
+{
+    "id":"409",
+    "description":"Conflict",
+    "url":"https://http.cat/409"
+},
+{
+    "id":"415",
+    "description":"Unsupported_Media_Type",
+    "url":"https://http.cat/415"
+},
+{
+    "id":"500",
+    "description":"Internal_Server_Error",
+    "url":"https://http.cat/500"
+},
+{
+    "id":"510",
+    "description":"Not_Extended",
+    "url":"https://http.cat/510"
+}
+]`

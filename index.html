@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            text-align: center;
+            background: rgb(151, 24, 24);
+        }
+        body {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="content"> 
+        <h1>List of some HTTP status codes(cat illustrated):</h1>    
+    </div>
+    <img src="" alt="">
+    <script src="data.js">
+    </script>
+    <script>
+        const datajson = JSON.parse(data);
+        console.log(datajson);
+        datajson.forEach(element => {
+            const data = document.querySelector('.content');
+            const img = document.createElement('img');
+            const id = document.createElement('h1');
+            const description = document.createElement('h2');
+            id.textContent = element.id;
+            description.textContent = element.description;
+            img.src = element.url;
+            data.appendChild(id);
+            data.appendChild(description);
+            data.appendChild(img);
+        });
+    </script>    
+</body>
+</html>
